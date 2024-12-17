@@ -1,0 +1,64 @@
+# Python cache and compiled files
+*.py[cod]
+__pycache__/
+*.so
+*.pyo
+*.pyd
+
+# Django specific files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+
+# Environment variables
+.env
+*.env
+
+# Virtual environments
+venv/
+env/
+ENV/
+venv.bak/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Byte-compiled files
+*.class
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Pipenv and virtualenv files
+Pipfile
+Pipfile.lock
+
+# Static and media files
+/static/
+media/
+
+# Migration files (optional, keep if you use migrations actively)
+**/migrations/*
+
+# Tests and coverage reports
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Build and distribution directories
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Node modules (if using frontend dependencies)
+node_modules/
